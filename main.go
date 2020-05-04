@@ -6,5 +6,8 @@ import (
 )
 
 func main() {
-	fmt.Println(page01.TwoSum([]int{2, 7, 11, 15}, 9))
+	fmt.Println(page01.LongestCommonPrefix([]string{"flower", "flow", "flight"}))
+
+	arr := []rune{'a', 'd'}
+	fmt.Println(string(arr))
 }
